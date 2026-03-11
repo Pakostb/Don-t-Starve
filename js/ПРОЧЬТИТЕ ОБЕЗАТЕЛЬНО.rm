@@ -2,7 +2,7 @@
 
 js/core - core.js ai.js 
 js/ui - ui.js
-js/assers.js
+js/assets.js
 js/main.js
 js/qa
 js/sound.js
