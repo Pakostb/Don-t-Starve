@@ -25,7 +25,12 @@ function gameLoop() {
     drawHungerHealth(ctx, 75, 60);
     
     requestAnimationFrame(gameLoop);
+    
 }
 
 // Запускаем игру
 gameLoop();
+const enemy1 = window.GameAI.addEnemy(100, 100, 50);
+const enemy2 = window.GameAI.addEnemy(300, 200, 75);
+window.GameAI.updateEnemies();
+console.log("Enemies count:", window.GameAI.getEnemies().length);
